@@ -6,10 +6,11 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', 'Inter', sans-serif;
   }
 
   body {
-    font-family: ${theme.typography.fontFamily};
+    font-family: 'Fredoka', 'Inter', sans-serif;
     background-color: ${theme.colors.background};
     color: ${theme.colors.text};
     line-height: 1.5;
@@ -43,5 +44,6 @@ export const GlobalStyles = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 1.2;
+    font-family: 'Fredoka', 'Inter', sans-serif;
   }
 `; 
